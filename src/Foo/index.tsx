@@ -1,5 +1,6 @@
 import React, { type FC } from 'react';
+import Demo from './demo';
 
-const Foo: FC<{ title: string }> = (props) => <h4>{props.title}</h4>;
+const Foo: FC<{ title: string }> = () => <Demo />;
 
 export default Foo;
